@@ -34,6 +34,7 @@ void setup () {
     for (int i = 0; i < 8; i++){
       enemyDestory[i] = false;
       flamesAppear[i] = false;
+      currentFrame[i] = 0;
     }
     
     //loadImage
